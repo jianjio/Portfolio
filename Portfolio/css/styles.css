@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  font-size: 1.1rem;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+section .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #fff;
+  align-items: CENTER;
+}
+
+section li {
+  font-size: 18px;
+}
+#projects .projects-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: #fff;
+  background: #333;
+  padding: 1rem;
+  align-items: center;
+  border: black 3px solid;
+  grid-gap: 2rem;
+}
+
+#school .school-items {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  color: #fff;
+  background: #333;
+  align-items: center;
+  border: black 3px solid;
+  text-align: center;
+}
+#school {
+  padding: 1rem;
+}
+#skill .skill-items {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  color: #fff;
+  background: #333;
+  padding: 1rem;
+  text-align: center;
+  border: black 3px solid;
+  grid-gap: 2rem;
+}
+
+#interest .interest-items {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  color: #fff;
+  background: #333;
+  padding: 1rem;
+  text-align: center;
+  border: black 3px solid;
+}
+
+#about .social a {
+  padding: 1rem;
+  color: black;
+  margin-left: 0.1rem;
+}
+
+.projects-item {
+  margin-bottom: 30px;
+}
+
+.projects-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.projects-item h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  padding-left: 3rem;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 14px;
+}
